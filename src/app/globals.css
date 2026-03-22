@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #09090b; /* Very dark zinc */
+  --foreground: #fafafa;
+  --accent-1: #3b82f6; 
+  --accent-2: #8b5cf6;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-card {
+    @apply bg-zinc-900/60 backdrop-blur-md border border-white/10 rounded-2xl p-8 transition-all duration-300 relative overflow-hidden;
+  }
+
+  .hover-glow:hover {
+    @apply -translate-y-1 border-purple-500/30 shadow-[0_10px_30px_-10px_rgba(139,92,246,0.25)];
+  }
+}
