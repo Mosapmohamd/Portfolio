@@ -19,6 +19,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Mosap Abdel-Ghany | AI Engineer & Data Scientist",
   description: "Portfolio of Mosap Abdel-Ghany, an AI Engineer, Data Scientist, and Instructor.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

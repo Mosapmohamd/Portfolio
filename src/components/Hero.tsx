@@ -37,8 +37,8 @@ export default function Hero() {
               View My Work
             </a>
             <div className="flex items-center gap-5 text-zinc-400">
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 block"><Github size={24} /></a>
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 block"><Linkedin size={24} /></a>
+              <a href="https://github.com/Mosapmohamd" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:-translate-y-1 block"><Github size={24} /></a>
+              <a href="https://www.linkedin.com/in/mosap-abdel-ghany" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:-translate-y-1 block"><Linkedin size={24} /></a>
               <a href="mailto:abdelghanymosap@gmail.com" className="hover:text-primary transition-colors hover:-translate-y-1 block"><Mail size={24} /></a>
             </div>
           </div>
