@@ -63,8 +63,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Phone</h4>
-                  <a href="tel:+20000000000" className="text-zinc-400 hover:text-primary transition-colors">
-                    +20 000 000 0000
+                  <a href="tel:+201013089663" className="text-zinc-400 hover:text-primary transition-colors">
+                    +20 101 308 9663
                   </a>
                 </div>
               </div>
